@@ -1,23 +1,18 @@
 <template>
-  <v-container fluid>
-    <v-slide-y-transition mode="out-in">
-      <v-layout column align-center>
-        <img id="logo" :src="logo_url" alt="Vuetify.js" class="mb-5">
-        <blockquote>
-          &#8220;This is the blog page &#8221;
-          <footer>
-            <small> 
-              <em>&mdash;Thanks to Areeb Jamal</em>
-            </small>
-          </footer>
-        </blockquote>
-      </v-layout>
-    </v-slide-y-transition>
-  </v-container>
+  <center>
+
+       <pdf src="static/Resume.pdf" type="application/pdf" width="60%" height="60%" />
+
+  </center>
 </template>
 
 <script>
+import pdf from 'pdfvuer'
+
 export default {
+  components: {
+    pdf
+  },
   data () {
     return {
       logo_url: this.$urls.staticUrls.blog

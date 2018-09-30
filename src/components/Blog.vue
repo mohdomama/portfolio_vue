@@ -1,10 +1,9 @@
 <template>
-<div id="particle">
-<h1> Hello World</h1>
-</div>
+  <h1> Hello World </h1>
 </template>
 
 <script>
+
 export default {
   data () {
     return {
