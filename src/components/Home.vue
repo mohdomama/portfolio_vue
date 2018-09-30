@@ -2,17 +2,16 @@
   <v-container fluid>
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
-        <img :src="logo_url" alt="Vuetify.js" class="mb-5">
-        <blockquote>
-          &#8220;This is the basic scaffolding of the site&#8221;
-          <footer>
-            <small>
-              <em>&mdash;Thanks to Areeb Jamal</em>
-            </small>
-          </footer>
-        </blockquote>
+        <img src="static/img/meascii.png" alt="image" class="mb-5" height="550">
+
+        <div class="font_home">
+          <div class="display-3"> Mohd Omama </div>
+          <div class="display-2" style="color: #616161"> Writer | I write codes, poems and stuff</div>
+        </div>
+
       </v-layout>
     </v-slide-y-transition>
+
     <vue-particles
         color="#c1e1de"
         :particleOpacity="0.7"
@@ -53,4 +52,9 @@ export default {
 
 <style scope>
 #particles-js { position: absolute; background-size: cover; top: 0; bottom: 0; left: 0; right: 0; overflow-y: hidden; z-index: 0; }
+
+.font_home {
+  font-family: 'Allerta Stencil';
+}
+
 </style>

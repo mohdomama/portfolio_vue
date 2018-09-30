@@ -9,7 +9,6 @@
       disable-resize-watcher
       :clipped="clipped"
       v-model="drawer"
-      light
       app
     >
       <v-toolbar flat>
@@ -45,8 +44,13 @@
 
     
 
-    <v-footer  app>
-      <span>&copy; Apache License</span>
+    <v-footer fixed app class="grey lighten-2">
+      <a href= "https://twitter.com/padfoot7_"style="font-size: 150%;"> <span class="fab fa-twitter"> &nbsp;  </span> </a>  
+      <a href= "https://reddit.com/user/padfoot_7" style="font-size: 150%;"> <span class="fab fa-reddit"> &nbsp;  </span> </a>  
+      <a href= "https://www.linkedin.com/in/mohdomama" style="font-size: 150%;"> <span class="fab fa-linkedin"> &nbsp;  </span> </a>  
+      <a href= "https://github.com/mohdomama" style="font-size: 150%;"> <span class="fab fa-github"> &nbsp;  </span> </a> 
+      <a href= "https://plus.google.com/+MohdOmama" style="font-size: 150%;"> <span class="fab fa-google-plus"> &nbsp;  </span> </a> 
+      <a href= "https://facebook.com/mohdomama" style="font-size: 150%;"> <span class="fab fa-facebook-f"> &nbsp; </span> </a> 
     </v-footer>
 
   </v-app>
