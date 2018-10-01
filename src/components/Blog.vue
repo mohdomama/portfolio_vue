@@ -10,6 +10,7 @@ export default {
       logo_url: this.$urls.staticUrls.blog
     }
   },
+
   head: {
     title () {
       return {
