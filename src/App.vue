@@ -23,11 +23,21 @@
     <v-divider></v-divider>
     <v-list dense class="pt-0">
       <v-list-tile v-for="item in items" :key="item.title" router v-bind:to="item.action">
-          <v-icon class="blue--text">{{ item.icon }}</v-icon>
+        <v-icon class="blue--text">{{ item.icon }}</v-icon>
         <v-list-tile-content>
           <v-list-tile-title> &nbsp; {{ item.title }}</v-list-tile-title>
         </v-list-tile-content>
       </v-list-tile>
+
+      <a href="https://medium.com/@mohdomama" style="text-decoration: none">
+      <v-list-tile>
+        <v-icon class="blue--text">rss_feed</v-icon>
+        <v-list-tile-content>
+          <v-list-tile-title> &nbsp; Blog</v-list-tile-title>
+        </v-list-tile-content>
+      </v-list-tile>
+      </a>
+
     </v-list>
     </v-navigation-drawer>
 
@@ -66,8 +76,7 @@
         fixed: false,
         items: [
           { icon: 'dashboard', title: 'Home', action: 'home' },
-          { icon: 'rss_feed', title: 'Blog', action: 'blog' },
-          { icon: 'file_download', title: 'Downloads', action: 'downloads' },
+          { icon: 'code', title: 'Projects', action: 'projects' },
           { icon: 'description', title: 'Resume', action: 'resume' },
           { icon: 'info', title: 'About', action: 'about' }
         ]

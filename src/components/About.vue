@@ -2,12 +2,11 @@
   <v-container fluid>
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
-        <img :src="logo_url" alt="Vuetify.js" class="mb-5">
         <blockquote>
-          &#8220;This is the about page &#8221;
+          &#8220;Yesterday I was clever, so I wanter to change the world. Today I am wise, so I am changing myself! &#8221;
           <footer>
             <small> 
-              <em>&mdash;Thanks to Areeb Jamal</em>
+              <em>&mdash; Maulana Rumi</em>
             </small>
           </footer>
         </blockquote>

@@ -2,12 +2,10 @@
   <v-container fluid>
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
-        <img :src="logo_url" alt="Vuetify.js" class="mb-5">
         <blockquote>
-          &#8220;This is the downloads page &#8221;
+          &#8220;Projects will be added soon! Visit Github for now. Link is in the footer.&#8221;
           <footer>
             <small> 
-              <em>&mdash;Thanks to Areeb Jamal</em>
             </small>
           </footer>
         </blockquote>

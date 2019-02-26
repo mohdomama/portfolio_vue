@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import About from '@/components/About'
 import Blog from '@/components/Blog'
-import Downloads from '@/components/Downloads'
+import Downloads from '@/components/Projects'
 import Resume from '@/components/Resume'
 
 Vue.use(Router)
@@ -27,8 +27,8 @@ export default new Router({
       component: Blog
     },
     {
-      path: '/downloads',
-      name: 'Downloads',
+      path: '/projects',
+      name: 'Projects',
       component: Downloads
     },
     {
